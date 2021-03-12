@@ -9,14 +9,11 @@ app.use(bodyPaser.json())
 
 
 
-app.use(express.static('dist'))
-
 app.get('/',(req,res)=>{
-    console.log("req is here")
-    //cloudinary.uploader.upload("./assets/cert-model-1.png",{width: 500, height: 500}, function(error, result) { res.send(result.secure_url) });
+ // TODO
 })
 app.post('/create',(req,res)=>{
-    console.log(req.body)
+ // TODO
 })
 
 module.exports = app
