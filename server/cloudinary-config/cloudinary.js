@@ -25,3 +25,8 @@ const deleteCertificate = (certif,cb)=>{
             resolve(result.secure_url) });
     })
 } 
+
+module.exports= {
+    uploadCertificate,
+    deleteCertificate
+}
